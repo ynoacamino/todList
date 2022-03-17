@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@300;400;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Tareas pendientes</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="perfil">
+            <img src="../src/PERFIL_2 (1).png" alt="">
+            <div>
+                <span><b>Elza Pallo</b></span>
+                <span>Study Develop</span>
+            </div>
+        </div>
+        <div class="create" id="addInfo">+ Create a task</div>
+        <div class="calendar"><span>Calendar</span></div>
+        <div class="short"><span>ShortCuts</span></div>
+        <div class="today child"><span>Today</span></div>
+        <div class="next child"><span>Next 7 Days</span></div>
+        <div class="all child"><span>All Tasks</span></div>
+        <div class="lists short"><span>Lists</span></div>
+        <div class="tags short"><span>Tags</span></div>
+    </div>
+    <div class="grid">
+        <header>
+            <span class="login">Log in</span>
+            <span class="myday">My Day </span>
+        </header>
+        <div class="content">
+            <div class="boxes">
+                <div class="listTasks">
+                    <div class="Notas">
+                        <div style="margin: 20px;font-weight: 500; font-size: 1.3rem;">
+                            <span>Agrega tus notas </span>
+                        </div>
+                    </div>
+                    <div class="listOne markList">
+                        <div class="circle"></div>
+                        <div>
+                            <span>NameTask</span>
+                            <span class="personal">Personal</span>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <div class="improvisado" id="improvisado">
+                    <div class="boxtext" id="box">
+                        <img src="loading.gif" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="screen" class="">
+        <div class="simodal nomodal">
+            <span class="span">Create Tasks</span>
+            <span>Name:</span>
+            <input type="text" id="nameTask" required value="">
+            <span>Descripcion:</span>
+            <textarea name="" id="descripcionTask" cols="29" rows="2"></textarea>
+            <span>Fecha a completar:</span>
+            <input type="date" id="dateTask" required>
+            <button type="submit" id="submiTask">Submit</button>
+        </div>
+    </div>    
+</body>
+<script src="main.js"></script>
+</html>
