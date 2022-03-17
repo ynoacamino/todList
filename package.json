@@ -1,0 +1,24 @@
+{
+  "name": "todlist",
+  "version": "1.0.0",
+  "description": "pagina pra listas y tareas pendientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegoo11/todList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegoo11/todList/issues"
+  },
+  "homepage": "https://github.com/Diegoo11/todList#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
